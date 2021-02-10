@@ -21,6 +21,10 @@
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
 
+	<!-- JdSlider -->
+
+	<link rel="stylesheet" href="css/plugins/jquery.jdSlider.css">
+
 	<link rel="stylesheet" href="css/style.css">
 
 	<!--===================================
@@ -35,6 +39,10 @@
 
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<!-- JdSlider -->
+	<script src="js/plugins/jquery.jdSlider-latest.js"></script>
+
 </head>
 <body>
 
@@ -105,18 +113,6 @@
 			</div>
 		</header>
 
-		<!-- BUSCADOR PARA MOVIL -->
-		<div class="container d-block d-md-none py-3">
-			
-			 <div class="input-group input-group-sm">
-			    <input type="text" class="form-control" placeholder="Buscar">
-			    <div class="input-group-append">
-			      <span class="input-group-text"><i class="fas fa-search"></i></span>
-			    </div>
-			 </div>
-
-		</div>
-
 		<!-- REDES SOCIALES PARA MOVIL -->
 					<div class="d-block d-md-none redes redesMovil p-0 bg-white w-100 pt-2">
 						<ul class="d-flex justify-content-center p-0">
@@ -151,6 +147,55 @@
 							</li>
 						</ul>
 					</div>
+
+<!--===================================
+				BANNER
+=====================================-->
+
+<div class="container-fluid p-0">
+	<section class="jd-slider fade-slider">
+		<div class="slice-inner">
+			<ul class="slide-area">
+				<li>
+					<img src="img/banner01.jpg" alt="Juanito Travel en el mar" class="img-fluid">
+				</li>
+				<li>
+					<img src="img/banner02.jpg" alt="Juanito Travel en el mar" class="img-fluid">
+				</li>
+				<li>
+					<img src="img/banner03.jpg" alt="Juanito Travel en el mar" class="img-fluid">
+				</li>
+				<li>
+					<img src="img/banner04.jpg" alt="Juanito Travel en el mar" class="img-fluid">
+				</li>
+			</ul>
+		</div>
+
+		<div class="controller d-none">
+			<a class="auto" href="#">
+				<i class="fas fa-play fa-xs"></i>
+				<i class="fas fa-pause fa-xs"></i>
+			</a>
+
+			<div class="indicate-area"></div>
+		</div>
+
+	</section>
+
+
+<!-- BUSCADOR PARA MOVIL -->
+<div class="container d-block d-md-none py-3">
+	
+	 <div class="input-group input-group-sm">
+	    <input type="text" class="form-control" placeholder="Buscar">
+	    <div class="input-group-append">
+	      <span class="input-group-text"><i class="fas fa-search"></i></span>
+	    </div>
+	 </div>
+
+</div>
+
+</div>
 
 
 	<script src="js/script.js"></script>
