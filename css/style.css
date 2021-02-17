@@ -63,11 +63,30 @@ header .logotipo {
 	font-size: 35px;
 }
 
+.fa-search, .fa-bars{
+	color:white;
+}
+
 .redesMovil {
 	position: fixed;
 	bottom: -10px;
 	left: 50%;
 	transform: translate(-50%, 0);
+}
+
+/*=============================================
+BANNER
+=============================================*/
+
+.fade-slider {
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+
+.bannerEstatico {
+	background: rgba(0, 0, 0, 0);
 }
 
 
